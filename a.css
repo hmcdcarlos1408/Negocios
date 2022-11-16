@@ -1,0 +1,109 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+input{
+	padding: 0 10px;
+	border-radius: 20px;
+}
+
+nav a{
+	padding-right: 10px;
+}
+
+header{
+	background-color: #80D8E9;
+	display: flex;
+	height: auto;
+	
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	
+}
+
+Footer{
+	background-color: #80D8E9;
+	display: flex;
+
+	align-items: center;
+	padding: 20px;
+	
+}
+
+
+.cabezal{
+	display: flex;
+	align-items: center;
+}
+
+.cabezal img{
+	height: 90px;
+	margin-right: 20px;
+}
+
+.MenB{
+	margin-left: 30px;
+}
+
+.TextP{
+	justify-content: space-between;
+	text-align:center;
+}
+
+.MenAuto{
+	text-align:center;
+}
+
+.Ima{
+	padding: 10px;
+	width: 250px;
+	height: 250px;
+	margin-right: 20px;
+}
+
+.banner{
+	width: 700px;
+	height: 320px;
+	border: 3px solid ;
+	margin: auto;
+	
+	background-size: 100% 100%;
+	
+	animation: banner 10s infinite;
+		
+}
+
+@keyframes banner {
+	
+	0%, 30% {
+		background-image: url(mujeres.jpg);
+		opacity: 1;
+	}
+	
+	31%, 34%{
+		opacity: 0.1;
+	}
+	
+	35%, 65% {
+		background-image: url(Hombres.jpg);
+		opacity: 1;
+	}
+	
+	66%, 69%{
+		opacity: 0.1;
+	}
+	
+	70%, 100% {
+		background-image: url(ninos.jpg);
+		opacity: 1;
+	}
+	
+	
+}
