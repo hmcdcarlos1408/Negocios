@@ -27,7 +27,11 @@ header{
 	padding: 10px;
 	
 }
-
+.mujeres{
+	background-color:darksalmon;
+	color:dimgray ;
+}
+.ok{background-color: hsl(190, 46%, 61%);}
 Footer{
 	background-color: #80D8E9;
 	display: flex;
