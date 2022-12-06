@@ -1,18 +1,23 @@
-const tabla = document.querySelector('#lista-usuarios tbody');
+const div = document.querySelector('#lista-usuarios ');
 
 function cargarUsuarios() {
     fetch('usuarios.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
         .then(usuarios => {
             usuarios.forEach(usuario => {
-                const row = document.createElement('tr');
+                const row = document.createElement('div');
                 row.innerHTML += `
-                    <td>${usuario.id}</td>
-                    <td>${usuario.name}</td>
-                    <td>${usuario.username}</td>
+                <div class="card" style="width: 18rem;">
+  <img src="Fotos/sudade.jpeg" class="card-img-top" alt="...">${usuario.id}
+  <div class="card-body">
+    <h5 class="card-title">${usuario.name}</h5>
+    <p class="card-text">${usuario.username}</p>
+    <a href="" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
                  
                 `;
-                tabla.appendChild(row);
+                div.appendChild(row);
 
                 // const card = document.createElement('card');
                 // card.classList = 'card';
