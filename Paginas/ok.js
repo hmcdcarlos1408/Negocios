@@ -4,10 +4,13 @@ function cargarUsuarios() {
     fetch('usuarios.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
         .then(usuarios => {
+          const row = document.createElement('div');
+         
             usuarios.forEach(usuario => {
-                const row = document.createElement('div');
-                row.innerHTML += `
-                <div class="card" style="width: 18rem;">
+               
+                row.innerHTML += ` <div class="col">
+                
+                <div class="card " style="width: 18rem;">
   <img src="Fotos/sudade.jpeg" class="card-img-top" alt="...">${usuario.id}
   <div class="card-body">
     <h5 class="card-title">${usuario.name}</h5>
@@ -15,7 +18,8 @@ function cargarUsuarios() {
     <a href="" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
-                 
+</div>
+</div>           
                 `;
                 div.appendChild(row);
 
