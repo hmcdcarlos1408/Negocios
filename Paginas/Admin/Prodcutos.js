@@ -1,7 +1,7 @@
 const tabla = document.querySelector('#lista-usuarios tbody');
 
 function cargarUsuarios() {
-    fetch('productos.json')
+    fetch('Json/productos.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
         .then(usuarios => {
             usuarios.forEach(usuario => {
