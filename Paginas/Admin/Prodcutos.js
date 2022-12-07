@@ -10,6 +10,7 @@ function cargarUsuarios() {
                     <td>${usuario.id}</td>
                     <td>${usuario.product}</td>
                     <td>${usuario.material}</td>
+                    <td>${usuario.des}</td>
                     <td>${usuario.costo}</td>
                 `;
                 tabla.appendChild(row);
