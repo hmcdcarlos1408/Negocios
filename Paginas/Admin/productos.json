@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1000,
+    "product": "Chamarra deportiva",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 1010,
+    "product": "Chamarra azul",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 1020,
+    "product": "Puma Transition",
+    "material": "Algodón",
+    "costo":1500
+  },
+  {
+    "id": 1030,
+    "product": "Pantalón vino",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 1040,
+    "product": "Playera aqua",
+    "material": "Algodón",
+    "costo":1500
+  },
+  {
+    "id": 1050,
+    "product": "Vestido casual",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 1060,
+    "product": "Chamarra deportiva",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 1070,
+    "product": "Chamarra azul",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 1080,
+    "product": "Camisa verde",
+    "material": "Viscosa",
+    "costo":1500
+  },
+  {
+    "id": 1090,
+    "product": "Camisa rosa con cuadros blancos",
+    "material": "Viscosa",
+    "costo":1500
+  },
+  {
+    "id": 2000,
+    "product": "Short Wilson",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 2010,
+    "product": "Sudadera café",
+    "material": "Algodón",
+    "costo":1500
+  },
+  {
+    "id": 2020,
+    "product": "Pantalón azul obscuro",
+    "material": "Algodón",
+    "costo":1500
+  },
+  {
+    "id": 2030,
+    "product": "Falda multicolor",
+    "material": "Poliéster",
+    "costo":1500
+  },
+  {
+    "id": 2040,
+    "product": "Suéter lila",
+    "material": "Algodón",
+    "costo":1500
+
+   
+  }
+]
