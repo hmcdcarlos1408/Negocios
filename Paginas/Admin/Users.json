@@ -3,250 +3,117 @@
       "id": 1,
       "name": "Rubén Valdez",
       "username": "Rubn_Vdz",
-      "email": "rubn.vdz@mail.com",
-      "direccion": {
-        "calle": "Pegaso",
-        "num": "556",
-        "ciudad": "Aguascalientes",
-        "cp": "20240"
-      },
-      "cel": "4498031564",
-      "ocupación": {
-        "ocupación": "Estudiante",
-        "lugar": "UAA"
-      }
+      "Pass": "rubn.vdz@mail.com",
+      "Rol":"cliente"
     },
     {
       "id": 2,
       "name": "Mariana Yareth",
       "username": "Mar Rojo",
-      "email": "marianagnc@mail.com",
-      "direccion": {
-        "calle": "Soledad",
-        "num": "317",
-        "ciudad": "Aguascalientes",
-        "cp": "20681"
-      },
-      "cel": "4497772145",
-      "ocupación": {
-        "ocupación": "Estudiante",
-        "lugar": "ITA"
-      }
+      "Pass": "marianagnc@mail.com",
+      "Rol":"cliente"
     },
     {
       "id": 3,
       "name": "Jeronimo Hernández",
       "username": "Jeros",
-      "email": "jerohdz@mail.com",
-      "direccion": {
-        "calle": "Ignacio",
-        "num": "44",
-        "ciudad": "Tijuana",
-        "cp": "77090"
-      },
-      "cel": "6644498034",
-      "ocupación": {
-        "ocupación": "Estudiante",
-        "lugar": "Cobach"
-      }
+      "Pass": "jerohdz@mail.com",
+      "Rol":"cliente"
     },
     {
       "id": 4,
       "name": "Patricia Cuevas",
       "username": "Patty",
-      "email": "patyc@mail.com",
-      "direccion": {
-        "calle": "Perú",
-        "num": "44",
-        "ciudad": "Nuevo Laredo",
-        "cp": "88040"
-      },
-      "cel": "8676698034",
-      "ocupación": {
-        "ocupación": "Vendedor",
-        "lugar": "Centro Comercial"
-      }
+      "Pass": "patyc@mail.com",
+      "Rol":"cliente"
     },
     {
       "id": 5,
       "name": "Claudia Esparza",
       "username": "Claus",
-      "email": "claus@mail.com",
-      "direccion": {
-        "calle": "31",
-        "num": "8",
-        "ciudad": "Mérida",
-        "cp": "97060"
-      },
-      "cel": "9994447745",
-      "ocupación": {
-        "ocupación": "Trabajador",
-        "lugar": "Plaza"
-      }
+      "Pass": "claus@mail.com",
+      "Rol":"cliente"
     },
     {
       "id": 6,
       "name": "Julian Soto",
       "username": "Juli",
-      "email": "juso@mail.com",
-      "direccion": {
-        "calle": "14 de febrero",
-        "num": "64",
-        "ciudad": "Aguascalientes",
-        "cp": "20316"
-      },
-      "cel": "4498653321",
-      "ocupación": {
-        "ocupación": "Trabajador",
-        "lugar": "Ladrillera"
-      }
+      "Pass": "juso@mail.com",
+      "Rol":"cliente"
+   
     },
     {
       "id": 7,
       "name": "Nancy Valdivia",
       "username": "Nancy Sola",
-      "email": "sola@mail.com",
-      "direccion": {
-        "calle": "Sauces",
-        "num": "315",
-        "ciudad": "Aguascalientes",
-        "cp": "20484"
-      },
-      "cel": "4498825215",
-      "ocupación": {
-        "ocupación": "Estudiante",
-        "lugar": "UAA"
-      }
+      "Pass": "sola@mail.com",
+      "Rol":"cliente"
+     
     },
     {
       "id": 8,
       "name": "Miguel Angel",
       "username": "Mike Tobi",
-      "email": "tobi@mail.com",
-      "direccion": {
-        "calle": "Conejal",
-        "num": "222",
-        "ciudad": "Aguascalienes",
-        "cp": "20484"
-      },
-      "cel": "4498825215",
-      "ocupación": {
-        "ocupación": "Estudiante",
-        "lugar": "ITA"
-      }
+      "Pass": "tobi@mail.com",
+      "Rol":"cliente"
+     
     },
     {
       "id": 9,
       "name": "Carlos Avila",
       "username": "Cars",
-      "email": "dametufuerzapegaso@mail.com",
-      "direccion": {
-        "calle": "Luna",
-        "num": "78",
-        "ciudad": "Zacatecas",
-        "cp": "98484"
-      },
-      "cel": "7742214982",
-      "ocupación": {
-        "ocupación": "Maestro",
-        "lugar": "Fray Bartolome"
-      }
+      "Pass": "dametufuerzapegaso@mail.com",
+      "Rol":"cliente"
+   
     },
     {
       "id": 10,
       "name": "Guadalupe Moreno",
       "username": "Lupita",
-      "email": "lupeno@mail.com",
-      "direccion": {
-        "calle": "Sauces",
-        "num": "315",
-        "ciudad": "Guadalajara",
-        "cp": "84875"
-      },
-      "cel": "3336157400",
-      "ocupación": {
-        "ocupación": "Chef",
-        "lugar": "Restaurante Alcalde"
-      }
+      "Pass": "lupeno@mail.com",
+      "Rol":"cliente"
+     
     },
     {
       "id": 11,
       "name": "Lenny Arias",
       "username": "Nenny",
-      "email": "nenny11@mail.com",
-      "direccion": {
-        "calle": "Aguacatal",
-        "num": "35",
-        "ciudad": "Veracruz",
-        "cp": "91700"
-      },
-      "cel": "2222979698",
-      "ocupación": {
-        "ocupación": "Servidor publico",
-        "lugar": "Alcaldía"
-      }
+      "Pass": "nenny11@mail.com",
+      "Rol":"cliente"
+    
     },
     {
       "id": 12,
       "name": "Erwin Guillen",
       "username": "Erwin",
-      "email": "eghz1203@mail.com",
-      "direccion": {
-        "calle": "Sendero",
-        "num": "10315",
-        "ciudad": "Monterrey",
-        "cp": "74125"
-      },
-      "cel": "5214875592",
-      "ocupación": {
-        "ocupación": "Medico",
-        "lugar": "Hospital San José"
-      }
+      "Pass": "eghz1203@mail.com",
+      "Rol":"cliente"
+ 
     },
     {
       "id": 13,
       "name": "Fernando Delgado",
       "username": "Fercho",
-      "email": "kammus@mail.com",
-      "direccion": {
-        "calle": "Teran",
-        "num": "22",
-        "ciudad": "Aguascalientes",
-        "cp": "20478"
-      },
-      "cel": "449621778",
-      "ocupación": {
-        "ocupación": "Paramedico",
-        "lugar": "Cruz Roja"
-      }
+      "Pass": "kammus@mail.com",
+      "Rol":"cliente"
+     
     },
     {
       "id": 14,
       "name": "Laura Garza",
       "username": "Laurita",
-      "email": "laulau6@mail.com",
-      "direccion": {
-        "calle": "Sauces",
-        "num": "315",
-        "ciudad": "Monterrey",
-        "cp": "74811"
-      },
-      "cel": "5214875592",
-      "ocupación": {
-        "ocupación": "Docente",
-        "lugar": "Ramones"
-      }
+      "Pass": "laulau6@mail.com",
+      "Rol":"cliente"
+      
     },
     {
       "id": 15,
       "name": "Roberto Carrillo",
       "username": "Beto",
-      "email": "robertca@mail.com",
+      "Pass": "robertca@mail.com",
+      "Rol":"Admin"
       
-      "cel": "4496587712",
-      "ocupación": {
-        "ocupación": "Seguridad",
-        "lugar": "Nissan"
+   
       }
-    }
+    
   ]
