@@ -29,73 +29,79 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg  pago">
-        <title >Plexo CLQ</title>
-        <link rel="shortcut icon" href="Fotos/Logo.png"> 
-      <div class="container-fluid">
-        <a class="nav-link active" aria-current="page" href="../index.html">
-        <img src="Fotos/Logo.png" alt="Bootstrap" width="120" height="94"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" 
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-          
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Menu.html"> Promociones </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Mujer.html"> Mujeres </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hombres.html"> Hombres </a>
-            </li>
-          </ul>
-     
-          <span class="navbar-text">
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Usuarios
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="Paginas/"> Iniciar sesion </a></li>
-                    <li><a class="dropdown-item" href="Paginas/registro.html"> Registrate </a></li>
-                  </ul>
-                </li>
-              </ul> 
-            </div>
-          </span>
-            
-        </div>
-      </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<a class="navbar-brand" href="#"><img class="rounded col-3" src="Logo.png"/></a>
+	  
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="menu.php">Store</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="#">
+shopping cart</a>
+			</li>
+		
+		   
+			<li class="nav-item">
+			  <a class="nav-link " href="../../index.html">Login</a>
+			</li>
+		  </ul>
+	</nav>
 
     <div class="container">
         <div class="row mt-3">
             <div class="col">
                 <h2>Listado de datos</h2>
                 <div class="my-3">
-                    <table class="table" id="lista-usuarios">
-                        <thead>
-                            <tr>
-                                <th scope="col"> ID </th>
-                                <th scope="col"> Nombre </th>
-                                <th scope="col"> Nombre de usuario </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
+                  <table class="table">
+                    <thead class="table-success table-striped">
+                      <tr>
+        
+                        <th scope="col">ID</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">UserName</th>
+                        <th scope="col">Description sell </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                   
+                      <?php
+                                          include'../cone.php';
+                                          $query="select * from ventas";
+                                          $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
+                                          foreach($eje as $row):
+                                              ?>
+                      <tr>
+                     
+                        <th>
+                          <?php  echo $row['idv']?>
+                        </th>
+                        <th>
+                          <?php  echo $row['total']?>
+                        </th>
+                        <th>
+                          <?php  echo $row['name_user']?>
+                        </th>
+                        <th>
+                          <?php  echo $row['desv']?>
+                        </th>
+                        <th><a href="deleteV.php?id=<?php echo $row['idv'] ?>" class="btn btn-danger">Eliminar</a>
+                        </th>
+                      </tr>
+                      <?php 
+                                                     endforeach
+                                              ?>
+                    </tbody>
+                  </table>
                 </div>
             </div>
         </div>
     </div>
-
+<Center>
    
     <script src="ok.js"></script>
       <!-- Replace "test" with your own sandbox Business account app client ID -->
@@ -129,7 +135,7 @@
           }
         }).render('#paypal-button-container');
       </script>
-
+</Center>
 </body>
 
 </html>

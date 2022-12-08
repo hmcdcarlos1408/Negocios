@@ -9,7 +9,12 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	background-color:hwb(203 18% 50%);
+  }
 a{
 	text-decoration: none;
 	color: black;
