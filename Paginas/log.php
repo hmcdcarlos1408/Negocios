@@ -15,4 +15,5 @@ endforeach;
       if ($R=="cliente" || $R=="cliente"){
             header("location:clientes/menu.php");
         }else{header("location:Login.html");}}
+
 ?> 
