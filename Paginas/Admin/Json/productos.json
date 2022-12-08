@@ -3,120 +3,82 @@
     "id": 1000,
     "product": "Chamarra deportiva",
     "categoria": "Poliéster",
-    "des": "Chamarra verde",
+    "des": "Chamarra verde deportiva  para hombre talla Mediana ",
     "costo":1500,
-    "url":""
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqycTrm7ZzaqPS6g0Vk2lVCYJJVwk9VzdIvA&usqp=CAU"
   },
   {
     "id": 1010,
     "product": "Chamarra azul",
     "categoria": "Poliéster",
-    "des": "Chamarra de pana",
-    "costo":1500,
-    "url":""
+    "des": "Chamarra de pana color azul para hombre talla Xg ",
+    "costo":800,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWiki-9cxPPYobMShHYI8MaxPJ-tAJns4ig&usqp=CAU"
   },
   {
     "id": 1020,
     "product": "Puma Transition",
     "material": "Algodón",
-    "des": "Legging gris",
-    "costo":1500,
-    "url":""
+    "des": "Legging gris deportivo para mujer talla Mediana ",
+    "costo":700,
+    "url":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqcf_SNzoAi0C5uWYe1pH1K-kue0q-rJJOvfwQk-WsDaxSh4OwnVJEzJwMRcJ63aEINJ7JRuPWqzMA&usqp=CAc"
   },
   {
     "id": 1030,
     "product": "Pantalón vino",
     "categoria": "Poliéster",
-    "des": "Elaborado en tejido de punto",
-    "costo":1500,
-    "url":""
+    "des": "Elaborado en tejido de punto para mujer talla 9 ",
+    "costo":200,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAluM1Lku7LAbHnZ5nfimWdRtHw33kK_eDDQ&usqp=CAU"
   },
   {
     "id": 1040,
     "product": "Playera aqua",
     "categoria": "Algodón",
-    "des": "Playera sin estampado",
-    "costo":1500,
-    "url":""
+    "des": "Playera sin estampado unisex unitalla",
+    "costo":150,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5cXuWj6fL5Sj3IknwiUa0AzKxo9oRyp-jMsyJsiEgcJFtV0Cm399FgycX5AHKSJMJSkc&usqp=CAU"
   },
   {
     "id": 1050,
     "product": "Vestido casual",
     "categoria": "Poliéster",
-    "des": "Vestido rojo corto",
-    "costo":1500,
-    "url":""
+    "des": "Vestido rojo corto para mujer talla Mediana ",
+    "costo":600,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIpqwvxvlP-sXbNr9oESt7PYRjPlRErHTHOgKmPW3NzEh3GBptOqM20g4dJ5kQirHNFbU&usqp=CAU"
   },
-  {
-    "id": 1060,
-    "product": "Chamarra deportiva",
-    "categoria": "Poliéster",
-    "des": "Chamarra verde",
-    "costo":1500,
-    "url":""
-  },
-  {
-    "id": 1070,
-    "product": "Chamarra azul",
-    "categoria": "Poliéster",
-    "des": "Chamarra de pana",
-    "costo":1500,
-    "url":""
-  },
+
   {
     "id": 1080,
     "product": "Camisa verde",
     "categoria": "Viscosa",
-    "des": "Camisa larga de manga 3/4",
-    "costo":1500,
-    "url":""
+    "des": "Camisa larga de manga 3/4 unisex unitalla",
+    "costo":300,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFfozYEZdXsw-dVl5dxcLCb6XQkS8-QY58JQ&usqp=CAU"
   },
   {
     "id": 1090,
     "product": "Camisa rosa con cuadros blancos",
     "categoria": "Viscosa",
-    "des": "Elaborado en tejido de plano",
-    "costo":1500,
-    "url":""
+    "des": "Elaborado en tejido de plano para hombre talla Grande",
+    "costo":500,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIIfVqKyW1dqD9uvsUZs1qo_n8jRseErMkZQ&usqp=CAU"
   },
   {
     "id": 2000,
     "product": "Short Wilson",
     "categoria": "Poliéster",
-    "des": "Short negro",
-    "costo":1500,
-    "url":""
+    "des": "Short negro unisex talla grande",
+    "costo":600,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5YdXhOzo_RDt9NTKjT9ZZRQujAQZOI8BjA&usqp=CAU"
   },
   {
     "id": 2010,
     "product": "Sudadera café",
     "categoria": "Algodón",
-    "des": "Corte regular",
-    "costo":1500,
-    "url":""
-  },
-  {
-    "id": 2020,
-    "product": "Pantalón azul obscuro",
-    "categoria": "Algodón",
-    "des": "Pantalon corte slim",
-    "costo":1500,
-    "url":""
-  },
-  {
-    "id": 2030,
-    "product": "Falda multicolor",
-    "categoria": "Poliéster",
-    "des": "Falda de tiro medio",
-    "costo":1500,
-    "url":""
-  },
-  {
-    "id": 2040,
-    "product": "Suéter lila",
-    "categoria": "Algodón",
-    "des": "Suetér casual medio largo",
-    "costo":1500,
-    "url":""
+    "des": "Corte regular unisex unitalla",
+    "costo":500,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMB0GOy8cwCw5TCARhoQt4iRmT9tJxRfr6w&usqp=CAU"
   }
+ 
 ]
