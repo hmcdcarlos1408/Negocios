@@ -96,10 +96,10 @@
             <div class="">
               <h1>Ingrese datos</h1>
               
-                <input type="text" class="form-control mb-3" name="Name" placeholder=" Name">
-                <input type="text" class="form-control mb-3" name="Username" placeholder="Username">
-                <input type="text" class="form-control mb-3" name="Pass" placeholder="Password">
-                <input type="text" class="form-control mb-3" name="Rol" placeholder="Rol">
+                <input type="text" class="form-control mb-3" name="Name" placeholder=" Name" required>
+                <input type="text" class="form-control mb-3" name="Username" placeholder="Username" required>
+                <input type="text" class="form-control mb-3" name="Pass" placeholder="Password" required>
+                <input type="text" class="form-control mb-3" name="Rol" placeholder="Rol" required>
               
 
 

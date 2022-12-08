@@ -87,11 +87,11 @@
               <h1>Ingrese datos</h1>
               <form action="insertP.php" method="POST">
              
-                <input type="text" class="form-control mb-3" name="product" placeholder="Prodcuto">
-                <input type="text" class="form-control mb-3" name="categoria" placeholder="Categoria">
-                <input type="text" class="form-control mb-3" name="des" placeholder="Decripcion">
-                <input type="text" class="form-control mb-3" name="costo" placeholder="Costo">
-                <input type="text" class="form-control mb-3" name="url" placeholder="Url imagen">
+                <input type="text" class="form-control mb-3" name="product" placeholder="Prodcuto" required>
+                <input type="text" class="form-control mb-3" name="categoria" placeholder="Categoria" required>
+                <input type="text" class="form-control mb-3" name="des" placeholder="Decripcion" required>
+                <input type="text" class="form-control mb-3" name="costo" placeholder="Costo" required>
+                <input type="text" class="form-control mb-3" name="url" placeholder="Url imagen" required>
 
 
             </div>
