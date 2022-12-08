@@ -1,17 +1,17 @@
 const tabla = document.querySelector('#lista-usuarios tbody');
 
+
 function cargarUsuarios() {
-    fetch('Json/Users.json')
+    fetch('Json/Sales.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
         .then(usuarios => {
             usuarios.forEach(usuario => {
                 const row = document.createElement('tr');
                 row.innerHTML += `
                     <td>${usuario.id}</td>
-                    <td>${usuario.name}</td>
-                    <td>${usuario.username}</td>
-                    <td>${usuario.Pass}</td>
-                    <td>${usuario.Rol}</td>
+                    <td>${usuario.Total}</td>
+                    <td>${usuario.Name_user}</td>
+                    <td>${usuario.Desc}</td>
                 `;
                 tabla.appendChild(row);
 
