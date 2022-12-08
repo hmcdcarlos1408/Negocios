@@ -91,15 +91,16 @@
             <h5 class="modal-title" id="exampleModalLabel"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
+          <form action="insertU.php" method="POST">
           <div class="modal-body">
             <div class="">
               <h1>Ingrese datos</h1>
-              <form action="insertar.php" method="POST">
-
-                <input type="text" class="form-control mb-3" name="cod_estudiante" placeholder="cod estudiante">
-                <input type="text" class="form-control mb-3" name="dni" placeholder="Dni">
-                <input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres">
-                <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos">
+              
+                <input type="text" class="form-control mb-3" name="Name" placeholder=" Name">
+                <input type="text" class="form-control mb-3" name="Username" placeholder="Username">
+                <input type="text" class="form-control mb-3" name="Pass" placeholder="Password">
+                <input type="text" class="form-control mb-3" name="Rol" placeholder="Rol">
+              
 
 
             </div>
@@ -139,28 +140,31 @@
             <tr>
               <?php
                include'../cone.php';
-              $query="select * from Users";
+              $query="select * from usuarios";
               $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
              
                               foreach($eje as $row):
                                       ?>
               <tr>
                 <th>
-                  <?php  echo $row['aasd']?>
+                  <?php  echo $row['idu']?>
+                </th>
+                
+                <th>
+                  <?php  echo $row['name']?>
                 </th>
                 <th>
-                  <?php  echo $row['aqweq']?>
+                  <?php  echo $row['username']?>
                 </th>
                 <th>
-                  <?php  echo $row['azxca']?>
-                </th>
-                <th>
-                  <?php  echo $row['aada']?>
+                  <?php  echo $row['pass']?>
+                </th> <th>
+                  <?php  echo $row['rol']?>
                 </th>
                
-                <th><a href="actualizar.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-info">Editar</a>
+                <th><a href="alterU.php?id=<?php echo $row['idu'] ?>" class="btn btn-info" >Editar</a>
                 </th>
-                <th><a href="delete.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-danger">Eliminar</a>
+                <th><a href="deleteU.php?id=<?php echo $row['idu'] ?>" class="btn btn-danger">Eliminar</a>
                 </th>
               </tr>
               <?php 
