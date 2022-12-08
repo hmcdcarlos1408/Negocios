@@ -124,10 +124,24 @@ color: white;}
 	
 }
 
+.OpcionesU{
+	width: 400px;
+	height: 340;
+	background-color: #1b292c;
+}
+
+.OpcionesU h2{
+	color: aliceblue;
+	border-bottom: 1px solid;
+	border-color: #f8feff;
+
+}
+
+
 .Login {
 	width: 400px;
 	height: 340;
-	background-color: #c2e4eb;
+	background-color: #1b292c;
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -136,12 +150,34 @@ color: white;}
 }
 
 .Login h4 {
+	color: antiquewhite;
 	margin: 0;
 	text-align: center;
 	height: 40px;
 	margin-bottom: 30px;
 	border-bottom: 1px solid;
+	border-color: #f8feff;
 	font-size: 20px;
+}
+
+.Login h5 {
+	color: antiquewhite;
+	margin: 0;
+	text-align: left;
+	height: 40px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid ;
+	border-color: #f8feff;
+	font-size: 20px;
+}
+
+.Login h2 {
+	color: antiquewhite;
+	margin: 0;
+	text-align: center;
+	height: 5px;
+	margin-bottom: 5px;
+	font-size: 50px;
 }
 
 .controls{
@@ -201,4 +237,10 @@ color: white;}
 	margin-bottom: 50px;
 	padding: 20px 30px;
 	float: left;
+}
+
+
+.User{
+	align-content: center;
+	margin-left: auto;
 }
