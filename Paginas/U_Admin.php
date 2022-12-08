@@ -51,9 +51,9 @@
       <h4 id="list-item-1"></h4>
         <section class="Login">
         <h4>Detalles de la cuenta</h4> 
-        <p><h5>Nombre de la cuenta</h5></p>
-        <p><h5>Usuario</h5></p>
-        </p><h5>Correo registrado</h5></p> 
+        <p><h5>Nombre de la cuenta: </h5></p>
+        <p><h5>Usuario : </h5></p>
+        </p><h5>Correo registrado: </h5></p> 
         </section>
       <h4 id="list-item-2"></h4>
         <section class="Login">
