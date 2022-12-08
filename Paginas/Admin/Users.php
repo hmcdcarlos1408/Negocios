@@ -46,13 +46,7 @@
 
       </ul>
   </nav>
-
-
-
-
-
-
-
+    
   <div class="container text-center">
     <div class="row align-items-start">
       <div class="col-md-auto">
@@ -77,8 +71,7 @@
           </table>
         </div>
       </div>
-  
-
+      
   <div class=" col col-lg-2">
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
       Register
@@ -101,8 +94,6 @@
                 <input type="text" class="form-control mb-3" name="Pass" placeholder="Password" required>
                 <input type="text" class="form-control mb-3" name="Rol" placeholder="Rol" required>
               
-
-
             </div>
           </div>
           <div class="modal-footer">
@@ -113,15 +104,10 @@
         </div>
       </div>
     </div>
-
-
-
-
+    
     <div class="container mt-5">
 
       <div class="row col-3">
-
-
 
         <div class="col-md-8">
           <table class="table">
