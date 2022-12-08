@@ -1,0 +1,119 @@
+[
+    {
+      "id": 1,
+      "name": "Rubén Valdez",
+      "username": "Rubn_Vdz",
+      "Pass": "rubn.vdz@mail.com",
+      "Rol":"cliente"
+    },
+    {
+      "id": 2,
+      "name": "Mariana Yareth",
+      "username": "Mar Rojo",
+      "Pass": "marianagnc@mail.com",
+      "Rol":"cliente"
+    },
+    {
+      "id": 3,
+      "name": "Jeronimo Hernández",
+      "username": "Jeros",
+      "Pass": "jerohdz@mail.com",
+      "Rol":"cliente"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Cuevas",
+      "username": "Patty",
+      "Pass": "patyc@mail.com",
+      "Rol":"cliente"
+    },
+    {
+      "id": 5,
+      "name": "Claudia Esparza",
+      "username": "Claus",
+      "Pass": "claus@mail.com",
+      "Rol":"cliente"
+    },
+    {
+      "id": 6,
+      "name": "Julian Soto",
+      "username": "Juli",
+      "Pass": "juso@mail.com",
+      "Rol":"cliente"
+   
+    },
+    {
+      "id": 7,
+      "name": "Nancy Valdivia",
+      "username": "Nancy Sola",
+      "Pass": "sola@mail.com",
+      "Rol":"cliente"
+     
+    },
+    {
+      "id": 8,
+      "name": "Miguel Angel",
+      "username": "Mike Tobi",
+      "Pass": "tobi@mail.com",
+      "Rol":"cliente"
+     
+    },
+    {
+      "id": 9,
+      "name": "Carlos Avila",
+      "username": "Cars",
+      "Pass": "dametufuerzapegaso@mail.com",
+      "Rol":"cliente"
+   
+    },
+    {
+      "id": 10,
+      "name": "Guadalupe Moreno",
+      "username": "Lupita",
+      "Pass": "lupeno@mail.com",
+      "Rol":"cliente"
+     
+    },
+    {
+      "id": 11,
+      "name": "Lenny Arias",
+      "username": "Nenny",
+      "Pass": "nenny11@mail.com",
+      "Rol":"cliente"
+    
+    },
+    {
+      "id": 12,
+      "name": "Erwin Guillen",
+      "username": "Erwin",
+      "Pass": "eghz1203@mail.com",
+      "Rol":"cliente"
+ 
+    },
+    {
+      "id": 13,
+      "name": "Fernando Delgado",
+      "username": "Fercho",
+      "Pass": "kammus@mail.com",
+      "Rol":"cliente"
+     
+    },
+    {
+      "id": 14,
+      "name": "Laura Garza",
+      "username": "Laurita",
+      "Pass": "laulau6@mail.com",
+      "Rol":"cliente"
+      
+    },
+    {
+      "id": 15,
+      "name": "Roberto Carrillo",
+      "username": "Beto",
+      "Pass": "robertca@mail.com",
+      "Rol":"Admin"
+      
+   
+      }
+    
+  ]
