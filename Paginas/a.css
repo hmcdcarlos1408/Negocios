@@ -8,11 +8,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-
 }
-
- 
 
 a{
 	text-decoration: none;
@@ -32,16 +28,17 @@ header{
 	background-color: #80D8E9;
 	display: flex;
 	height: auto;
-	
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
 	
 }
+
 .mujeres{
 	background-color:darksalmon;
 	color:dimgray ;
 }
+
 .ok{background-color: hwb(203 18% 50%);}
 Footer{
 	background-color: #80D8E9;
@@ -120,7 +117,6 @@ color: white;}
 		opacity: 1;
 	}
 	
-	
 }
 
 .Login {
@@ -177,7 +173,6 @@ color: white;}
 	margin-top: 50px;
 	margin-bottom: 100px;
 	padding: 20px 30px;
-	
 }
 
 .Productos h4{
