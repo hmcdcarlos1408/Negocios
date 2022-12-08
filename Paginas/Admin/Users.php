@@ -32,13 +32,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="productos_j.html">Products</a>
+          <a class="nav-link active" aria-current="page" href="productos_j.php">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Users</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Sales.html">Sales</a>
+          <a class="nav-link" href="Sales.php">Sales</a>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="../../index.html">login out</a>
@@ -136,7 +136,7 @@
               </tr>
             </thead>
 
-            <tbody>
+            <tr>
               <?php
                include'../cone.php';
               $query="select * from Users";
@@ -166,7 +166,7 @@
               <?php 
                                           endforeach
                                       ?>
-            </tbody>
+            </tr>
           </table>
         </div>
       </div>
