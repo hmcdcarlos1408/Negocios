@@ -124,6 +124,8 @@ color: white;}
 	
 }
 
+
+
 .OpcionesU{
 	width: 400px;
 	height: 340;
@@ -131,12 +133,30 @@ color: white;}
 }
 
 .OpcionesU h2{
+	text-align: center;
+	color: aliceblue;
+	font-size: 50px;
+}
+
+
+.OpcionesU h4{
+	text-align: center;
+	color: aliceblue;
+	border-width: 5px;
+	border-bottom: 1px solid;
+	border-color: #f8feff;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+
+.OpcionesU h5{
+	text-align: left;
 	color: aliceblue;
 	border-bottom: 1px solid;
 	border-color: #f8feff;
-
+	font-size: 25px;
 }
-
 
 .Login {
 	width: 400px;

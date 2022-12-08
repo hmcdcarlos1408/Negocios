@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
 		<a class="navbar-brand" href="#"><img class="rounded col-3" src="Fotos/Logo.png"/></a>
 	  
@@ -36,24 +35,42 @@
 			</li>
 		  </ul>
 	</nav>
-    <div class="User">
-        
+
+    <br/>
+
+    <div class="row">
+  <div class="col-4">
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#list-item-1">Detalles de la cuenta</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">Compras realizadas</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">Configurar cuenta </a>
     </div>
-
-    <nav class="OpcionesU">
-        <h2>¡Hola de nuevo! </h2>
-
-        <p><h4> Carlos </h4></p>
-        <h5> Nombre de usuario: </h5>
-        <p><h5> Nombre de usuario: </h5></p>
-        <p><h5> Nombres registrados: </h5></p>
-        <p><h5> Correo Registrado: </h5></p> 
-
-    </nav>
-    
-    <section class="Login">
-          <h2> ¡Hola!</h2>
+  </div>
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <h4 id="list-item-1"></h4>
+        <section class="Login">
+        <h4>Detalles de la cuenta</h4> 
+        <p><h5>Nombre de la cuenta</h5></p>
+        <p><h5>Usuario</h5></p>
+        </p><h5>Correo registrado</h5></p> 
+        </section>
+      <h4 id="list-item-2"></h4>
+        <section class="Login">
+        <h4>Registro de compras</h4> 
+        </section>
+      <h4 id="list-item-3"></h4>
+        <section class="Login">
+        <h4>Configurar perfil</h4> 
+        <p><h5>Nombre de la cuenta</h5><input class="button" type="submit" value="cambiar"> </p>
+        <p><h5>Usuario</h5><input class="button" type="submit" value="cambiar"></p>
+        </p><h5>Correo registrado</h5><input class="button" type="submit" value="cambiar"></p> 
+        </p><h5>Contraseña</h5><input class="button" type="submit" value="cambiar"></p> 
+        </section>
       
-        
-    </section>
+    </div>
+  </div>
+</div>
+
+
 </body>
