@@ -1,0 +1,227 @@
+[
+  {
+    "id compra": 1,
+    "id usuario": 1,
+    "fecha de compra": "06/12/2022",
+    "name": "Rubén Valdez",
+    "username": "Rubn_Vdz",
+    "email": "rubn.vdz@mail.com",
+    "direccion": {
+      "calle": "Pegaso",
+      "num": "556",
+      "ciudad": "Aguascalientes",
+      "cp": "20240"
+
+    },
+    "cel": "4498031564",
+    "id producto": 1000,
+    "product": "Chamarra deportiva",
+    "precio producto": 800,
+    "cantidad articulos": 1,
+    "precio total": 800
+  },
+  {
+    "id compra": 2,
+    "id usuario": 2,
+    "fecha de compra": "06/12/2022",
+    "name": "Mariana Yareth",
+    "username": "Mar Rojo",
+    "email": "marianagnc@mail.com",
+    "direccion": {
+      "calle": "Soledad",
+      "num": "317",
+      "ciudad": "Aguascalientes",
+      "cp": "20681"
+    },
+    "cel": "4497772145",
+    "id producto": 1010,
+    "product": "Chamarra azul",
+    "precio producto": 2500,
+    "cantidad articulos": 1,
+    "precio total": 2500
+  },
+  {
+    "id compra": 3,
+    "id usuario": 3,
+    "fecha de compra": "06/12/2022",
+    "name": "Jeronimo Hernández",
+    "username": "Jeros",
+    "email": "jerohdz@mail.com",
+    "direccion": {
+      "calle": "Ignacio",
+      "num": "44",
+      "ciudad": "Tijuana",
+      "cp": "77090"
+    },
+    "cel": "6644498034",
+    "id producto": 1020,
+    "product": "Puma Transition",
+    "precio producto": 500,
+    "cantidad articulos": 5,
+    "precio total": 2500
+  },
+  {
+    "id compra": 3,
+    "id usuario": 3,
+    "fecha de compra": "06/12/2022",
+    "name": "Jeronimo Hernández",
+    "username": "Jeros",
+    "email": "jerohdz@mail.com",
+    "direccion": {
+      "calle": "Ignacio",
+      "num": "44",
+      "ciudad": "Tijuana",
+      "cp": "77090"
+    },
+    "cel": "6644498034",
+    "id producto": 1030,
+    "product": "Pantalón vino",
+    "precio producto": 400,
+    "cantidad articulos": 2,
+    "precio total": 800
+  },
+  {
+    "id compra": 4,
+    "id usuario": 4,
+    "fecha de compra": "06/12/2022",
+    "name": "Patricia Cuevas",
+    "username": "Patty",
+    "email": "patyc@mail.com",
+    "direccion": {
+      "calle": "Perú",
+      "num": "44",
+      "ciudad": "Nuevo Laredo",
+      "cp": "88040"
+    },
+    "cel": "8676698034",
+    "id producto": 1040,
+    "product": "Playera aqua",
+    "precio producto": 200,
+    "cantidad articulos": 1,
+    "precio total": 200
+  },
+  {
+    "id compra": 5,
+    "id usuario": 5,
+    "fecha de compra": "06/12/2022",
+    "name": "Claudia Esparza",
+    "username": "Claus",
+    "email": "claus@mail.com",
+    "direccion": {
+      "calle": "31",
+      "num": "8",
+      "ciudad": "Mérida",
+      "cp": "97060"
+    },
+    "cel": "9994447745",
+    "id producto": 1050,
+    "product": "Vestido casual",
+    "precio producto": 2500,
+    "cantidad articulos": 1,
+    "precio total": 2500
+  },
+  {
+    "id compra": 6,
+    "id usuario": 6,
+    "fecha de compra": "06/12/2022",
+    "name": "Julian Soto",
+    "username": "Juli",
+    "email": "juso@mail.com",
+    "direccion": {
+      "calle": "14 de febrero",
+      "num": "64",
+      "ciudad": "Aguascalientes",
+      "cp": "20316"
+    },
+    "cel": "4498653321",
+    "id producto": 1060,
+    "product": "Chamarra deportiva",
+    "precio producto": 400,
+    "cantidad articulos": 1,
+    "precio total": 400
+  },
+  {
+    "id compra": 7,
+    "id usuario": 7,
+    "fecha de compra": "06/12/2022",
+    "name": "Nancy Valdivia",
+    "username": "Nancy Sola",
+    "email": "sola@mail.com",
+    "direccion": {
+      "calle": "Sauces",
+      "num": "315",
+      "ciudad": "Aguascalientes",
+      "cp": "20484"
+    },
+    "cel": "4498825215",
+    "id producto": 1070,
+    "product": "Chamarra azul",
+    "precio producto": 174,
+    "cantidad articulos": 4,
+    "precio total": 700
+  },
+  {
+    "id compra": 8,
+    "id usuario": 8,
+    "fecha de compra": "06/12/2022",
+    "name": "Miguel Angel",
+    "username": "Mike Tobi",
+    "email": "tobi@mail.com",
+    "direccion": {
+      "calle": "Conejal",
+      "num": "222",
+      "ciudad": "Aguascalienes",
+      "cp": "20484"
+    },
+    "cel": "4498825215",
+    "id producto": 1080,
+    "product": "Camisa verde",
+    "precio producto": 1250,
+    "cantidad articulos": 2,
+    "precio total": 2500
+  },
+  {
+    "id compra": 9,
+    "id usuario": 9,
+    "fecha de compra": "06/12/2022",
+    "name": "Carlos Avila",
+    "username": "Cars",
+    "email": "dametufuerzapegaso@mail.com",
+    "direccion": {
+      "calle": "Luna",
+      "num": "78",
+      "ciudad": "Zacatecas",
+      "cp": "98484"
+    },
+    "cel": "7742214982",
+    "id producto": 1090,
+    "product": "Camisa rosa con cuadros blancos",
+    "precio de articulo": 500,
+    "cantidad articulos": 1,
+    "precio total": 500
+  },
+  {
+    "id compra": 10,
+    "fecha de compra": "06/12/2022",
+    "id usuario": 10,
+    "name": "Guadalupe Moreno",
+    "username": "Lupita",
+    "email": "lupeno@mail.com",
+    "direccion": {
+      "calle": "Sauces",
+      "num": "315",
+      "ciudad": "Guadalajara",
+      "cp": "84875"
+    },
+    "cel": "3336157400",
+    "id producto": 2000,
+    "product": "Short Wilson",
+  "precio producto": 1250,
+    "cantidad articulos": 2,
+     "precio total": 2500
+  }
+
+
+
+
+]
