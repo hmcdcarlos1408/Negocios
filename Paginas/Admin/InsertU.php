@@ -8,5 +8,5 @@ $inser="INSERT INTO `usuarios` VALUES ('','$name','$username','$pass','$rol')";
 
 $res=mysqli_query($conn,$inser);
 mysqli_close($conn);
-
+header("location:Users.php")
 ?>
