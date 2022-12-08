@@ -8,9 +8,9 @@ function cargarUsuarios() {
                
 
                 const card = document.createElement('card');
-                card.classList = 'card';
+                card.classList = 'card'; 
                 card.innerHTML += `
-                                <img src="../${usuario.id}" alt="Avatar" style="width:100%">
+                                <img src="${usuario.id}" alt="" style="width:100%">
                                     <div class="container">
                                         <h4><b>${usuario.product}</b></h4>
                                         <p>${usuario.categoria}</p>
