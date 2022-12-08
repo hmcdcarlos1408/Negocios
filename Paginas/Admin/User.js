@@ -1,4 +1,4 @@
-const tabla = document.querySelector('#lista-usuarios tbody');
+const tabla = document.querySelector('#lista-usuarios tab');
 
 function cargarUsuarios() {
     fetch('Json/Users.json')
