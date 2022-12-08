@@ -2,106 +2,121 @@
   {
     "id": 1000,
     "product": "Chamarra deportiva",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Chamarra verde",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1010,
     "product": "Chamarra azul",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Chamarra de pana",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1020,
     "product": "Puma Transition",
     "material": "Algodón",
     "des": "Legging gris",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1030,
     "product": "Pantalón vino",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Elaborado en tejido de punto",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1040,
     "product": "Playera aqua",
-    "material": "Algodón",
+    "categoria": "Algodón",
     "des": "Playera sin estampado",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1050,
     "product": "Vestido casual",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Vestido rojo corto",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1060,
     "product": "Chamarra deportiva",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Chamarra verde",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1070,
     "product": "Chamarra azul",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Chamarra de pana",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1080,
     "product": "Camisa verde",
-    "material": "Viscosa",
+    "categoria": "Viscosa",
     "des": "Camisa larga de manga 3/4",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 1090,
     "product": "Camisa rosa con cuadros blancos",
-    "material": "Viscosa",
+    "categoria": "Viscosa",
     "des": "Elaborado en tejido de plano",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 2000,
     "product": "Short Wilson",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Short negro",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 2010,
     "product": "Sudadera café",
-    "material": "Algodón",
+    "categoria": "Algodón",
     "des": "Corte regular",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 2020,
     "product": "Pantalón azul obscuro",
-    "material": "Algodón",
+    "categoria": "Algodón",
     "des": "Pantalon corte slim",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 2030,
     "product": "Falda multicolor",
-    "material": "Poliéster",
+    "categoria": "Poliéster",
     "des": "Falda de tiro medio",
-    "costo":1500
+    "costo":1500,
+    "url":""
   },
   {
     "id": 2040,
     "product": "Suéter lila",
-    "material": "Algodón",
+    "categoria": "Algodón",
     "des": "Suetér casual medio largo",
-    "costo":1500
+    "costo":1500,
+    "url":""
   }
 ]

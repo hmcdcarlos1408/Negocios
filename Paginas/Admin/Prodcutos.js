@@ -9,6 +9,7 @@ function cargarUsuarios() {
                 row.innerHTML += `
                     <td>${usuario.id}</td>
                     <td>${usuario.product}</td>
+                    <td>${usuario.categoria}</td>
                     <td>${usuario.des}</td>
                     <td>${usuario.costo}</td>
                 `;
