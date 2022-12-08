@@ -1,6 +1,5 @@
 const tabla = document.querySelector('#lista-usuarios tbody');
 
-
 function cargarUsuarios() {
     fetch('Json/Sales.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
@@ -14,12 +13,10 @@ function cargarUsuarios() {
                     <td>${usuario.Desc}</td>
                 `;
                 tabla.appendChild(row);
-
-               
+                
             });
         }) // Aquí mostramos dicha información
-        .catch(error => console.log('Hubo un error : ' + error.message))
+        .catch(error => console.log('Hubo un error: ' + error.message))
 }
-
 
 cargarUsuarios();
