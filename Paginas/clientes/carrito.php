@@ -101,7 +101,7 @@ shopping cart</a>
             </div>
         </div>
     </div>
-<Center>
+
    
     <script src="ok.js"></script>
       <!-- Replace "test" with your own sandbox Business account app client ID -->
@@ -135,7 +135,7 @@ shopping cart</a>
           }
         }).render('#paypal-button-container');
       </script>
-</Center>
+
 </body>
 
 </html>

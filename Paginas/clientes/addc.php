@@ -29,4 +29,4 @@ $res=mysqli_query($conn,$inser);
            mysqli_close($conn);
            
            header("location:carrito.php")
-?>INSERT INTO `ventas`(`idv`, `total`, `name_user`, `desv`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')
+?>
