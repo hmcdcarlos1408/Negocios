@@ -68,6 +68,7 @@
           </table>
         </div>
       </div>
+        
   
 
   <div class=" col col-lg-2">
@@ -166,7 +167,7 @@
 
   </div>
    
-    <script src="Prodcutos.js"></script>
+  <script src="Prodcutos.js"></script>
   
 
 </body>

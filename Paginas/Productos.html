@@ -37,34 +37,30 @@
 		  </ul>
 	</nav>
     
+  <div class="row align-items-start">
+    <div class="col-md-auto">
 
-    <div class="wrapper">
- 
-    <?php
-                                      include'cone.php';
-                                      $query="select * from producto";
-                                      $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
-                                      foreach($eje as $row):
-                                          ?>
-                           <div>
+      <h2>List Products</h2>
+      <div class="my-4">
+        <table class="table" id="lista-usuarios">
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Description </th>
+              <th scope="col">Costo</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+          </tbody>
+
+        </table>
+      </div>
+    </div>
       
-    
-  
-                           <div class="card" style="width: 18rem;">
-  <img src="<?php echo $row['url'] ?>" class="card-img-top" alt="...">
-  <div class="card-body"><?php echo $row['costo'] ?>
-    <p class="card-text"><?php echo $row['costo'] ?></p>
-  </div>
-</div>
-
-
-</div>
-
-<?php 
-                                                 endforeach
-                                          ?>
-                                        
-                                        </div>              
+  <script src="Prodcutos.js"></script>           
     
 </body>
 </html>
