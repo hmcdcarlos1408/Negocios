@@ -23,13 +23,13 @@
 			  <a class="nav-link active" aria-current="page" href="#">Store</a>
 			</li>
 			<li class="nav-item">
-			  <a class="nav-link active" aria-current="page" href="carrito.html">
+			  <a class="nav-link active" aria-current="page" href="carrito.php">
 shopping cart</a>
 			</li>
 		
 		   
 			<li class="nav-item">
-			  <a class="nav-link " href="../../index.html">Login</a>
+			  <a class="nav-link " href="../../index.html">Login out</a>
 			</li>
 		  </ul>
 	</nav>
