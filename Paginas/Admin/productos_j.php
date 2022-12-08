@@ -27,10 +27,10 @@
               <a class="nav-link active" aria-current="page" href="#">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Users.html">Users</a>
+              <a class="nav-link active" aria-current="page" href="Users.php">Users</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sales.html">Sales</a>
+              <a class="nav-link" href="sales.php">Sales</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="../../index.html">login out</a>
@@ -85,12 +85,13 @@
           <div class="modal-body">
             <div class="">
               <h1>Ingrese datos</h1>
-              <form action="insertar.php" method="POST">
-
-                <input type="text" class="form-control mb-3" name="cod_estudiante" placeholder="cod estudiante">
-                <input type="text" class="form-control mb-3" name="dni" placeholder="Dni">
-                <input type="text" class="form-control mb-3" name="nombres" placeholder="Nombres">
-                <input type="text" class="form-control mb-3" name="apellidos" placeholder="Apellidos">
+              <form action="insertP.php" method="POST">
+             
+                <input type="text" class="form-control mb-3" name="product" placeholder="Prodcuto">
+                <input type="text" class="form-control mb-3" name="categoria" placeholder="Categoria">
+                <input type="text" class="form-control mb-3" name="des" placeholder="Decripcion">
+                <input type="text" class="form-control mb-3" name="costo" placeholder="Costo">
+                <input type="text" class="form-control mb-3" name="url" placeholder="Url imagen">
 
 
             </div>
@@ -122,41 +123,42 @@
                 <th scope="col">Name</th>
                 <th scope="col">UserName</th>
                 <th scope="col">Password </th>
-                <th scope="col">Costo</th>
+                <th scope="col"></th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
 
             <tbody>
+
               <?php
-                                          while($row=mysqli_fetch_array($query)){
+    include'../cone.php';
+    $query="select * from producto";
+    $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
+    foreach($eje as $row):
+    
                                       ?>
               <tr>
                 <th>
-                  <?php  echo $row['cod_estudiante']?>
+                  <?php  echo $row['id']?>
                 </th>
                 <th>
-                  <?php  echo $row['dni']?>
+                  <?php  echo $row['product']?>
                 </th>
                 <th>
-                  <?php  echo $row['nombres']?>
+                  <?php  echo $row['des']?>
                 </th>
                 <th>
-                  <?php  echo $row['apellidos']?>
+                  <?php  echo $row['costo']?>
                 </th>
-                <th>
-                  <?php  echo $row['nombres']?>
+                
+              
+                <th><a href="AlterP.php?id=<?php echo $row['id'] ?>" class="btn btn-info">Editar</a>
                 </th>
-                <th>
-                  <?php  echo $row['apellidos']?>
-                </th>
-                <th><a href="actualizar.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-info">Editar</a>
-                </th>
-                <th><a href="delete.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-danger">Eliminar</a>
+                <th><a href="DeleteP.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Eliminar</a>
                 </th>
               </tr>
               <?php 
-                                          }
+                                        endforeach
                                       ?>
             </tbody>
           </table>

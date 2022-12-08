@@ -32,10 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="productos_j.html">Products</a>
+                    <a class="nav-link active" aria-current="page" href="productos_j.php">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Users.html">Users</a>
+                    <a class="nav-link active" aria-current="page" href="Users.php">Users</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sales</a>
@@ -89,44 +89,37 @@
                   <tr>
     
                     <th scope="col">ID</th>
-                    <th scope="col">Name</th>
+                    <th scope="col">Total</th>
                     <th scope="col">UserName</th>
-                    <th scope="col">Password </th>
-                    <th scope="col">Costo</th>
-                    <th scope="col">Action</th>
+                    <th scope="col">Description sell </th>
                   </tr>
                 </thead>
-    
                 <tbody>
                   <?php
-                                              while($row=mysqli_fetch_array($query)){
+                                      include'../cone.php';
+                                      $query="select * from ventas";
+                                      $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
+                                      foreach($eje as $row):
                                           ?>
                   <tr>
+                 
                     <th>
-                      <?php  echo $row['cod_estudiante']?>
-                    </th>
-                    <th>
-                      <?php  echo $row['dni']?>
+                      <?php  echo $row['idv']?>
                     </th>
                     <th>
-                      <?php  echo $row['nombres']?>
+                      <?php  echo $row['total']?>
                     </th>
                     <th>
-                      <?php  echo $row['apellidos']?>
+                      <?php  echo $row['name_user']?>
                     </th>
                     <th>
-                      <?php  echo $row['nombres']?>
+                      <?php  echo $row['desv']?>
                     </th>
-                    <th>
-                      <?php  echo $row['apellidos']?>
-                    </th>
-                    <th><a href="actualizar.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-info">Editar</a>
-                    </th>
-                    <th><a href="delete.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-danger">Eliminar</a>
+                    <th><a href="deleteV.php?id=<?php echo $row['idv'] ?>" class="btn btn-danger">Eliminar</a>
                     </th>
                   </tr>
                   <?php 
-                                              }
+                                                 endforeach
                                           ?>
                 </tbody>
               </table>
