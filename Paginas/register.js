@@ -6,7 +6,7 @@ let captura_datos=function(){
 }
 let dataRead=function(){
     let datoObj={
-    nombre:documen.querySelector("#nombre").value,
+    nombre:document.querySelector("#nombre").value,
     usuario:document.querySelector("#usuario").value,
     clave:document.querySelector("#clave").value,
 };
