@@ -1,4 +1,4 @@
-const tabla = document.querySelector('#lista-usuarios tbody');
+const tabla = document.querySelector('#lista-usuarios td');
 
 function cargarUsuarios() {
     fetch('Admin/Json/productos.json')
@@ -9,15 +9,18 @@ function cargarUsuarios() {
 
                 const card = document.createElement('card');
                 card.classList = 'card';
-                card.innerHTML += `<Td>
-                                <img src="url" alt="Avatar" style="width:100%">
+                card.innerHTML += `
+                                <img src="${usuario.id}" alt="Avatar" style="width:100%">
                                     <div class="container">
-                                        <h4><b>${usuario.id}</b></h4>
-                                        <p>${usuario.name}</p>
-                                    </div></Td>
+                                        <h4><b>${usuario.product}</b></h4>
+                                        <p>${usuario.categoria}</p>
+                                        <p>${usuario.des}</p>
+                                        <p>$ ${usuario.costo}</p>
+                                    </div>
                             
                             `;
 
+                         
                 tabla.appendChild(card);
 
             });
