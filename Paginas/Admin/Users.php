@@ -70,7 +70,7 @@
               </tr>
             </thead>
 
-            <tbody>
+            <tbody id="tab">
 
             </tbody>
 
@@ -138,34 +138,33 @@
 
             <tbody>
               <?php
-                                          while($row=mysqli_fetch_array($query)){
+               include'../cone.php';
+              $query="select * from Users";
+              $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
+             
+                              foreach($eje as $row):
                                       ?>
               <tr>
                 <th>
-                  <?php  echo $row['cod_estudiante']?>
+                  <?php  echo $row['aasd']?>
                 </th>
                 <th>
-                  <?php  echo $row['dni']?>
+                  <?php  echo $row['aqweq']?>
                 </th>
                 <th>
-                  <?php  echo $row['nombres']?>
+                  <?php  echo $row['azxca']?>
                 </th>
                 <th>
-                  <?php  echo $row['apellidos']?>
+                  <?php  echo $row['aada']?>
                 </th>
-                <th>
-                  <?php  echo $row['nombres']?>
-                </th>
-                <th>
-                  <?php  echo $row['apellidos']?>
-                </th>
+               
                 <th><a href="actualizar.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-info">Editar</a>
                 </th>
                 <th><a href="delete.php?id=<?php echo $row['cod_estudiante'] ?>" class="btn btn-danger">Eliminar</a>
                 </th>
               </tr>
               <?php 
-                                          }
+                                          endforeach
                                       ?>
             </tbody>
           </table>
