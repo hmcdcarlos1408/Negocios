@@ -11,7 +11,7 @@ function cargarUsuarios() {
                 card.classList = 'card'; 
                 card.innerHTML += `
                                 <img src="${usuario.url}" alt="" style="width:100%">
-                                    <div class="container">
+                                    <div class="container" display: flex>
                                         <h4><b>${usuario.product}</b></h4>
                                         <p>${usuario.categoria}</p>
                                         <p>${usuario.des}</p>
