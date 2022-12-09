@@ -38,9 +38,9 @@
 
     <section class="Login">
         <h4>Ingresa con tu cuenta</h4> 
-        <p><input class="controls" type="text" name="Username" placeholder="Username"></p>
-        <p><input class="controls" type="password" name="password" placeholder="password"></p>
-        <input class="button" type="submit" value="Ingresar"> 
+        <p><input class="controls" type="text" id="Username" placeholder="Username"></p>
+        <p><input class="controls" type="password" id="password" placeholder="password"></p>
+        <input class="button" type="submit" onclick="Log()" value="Ingresar"> 
 
 	<p><a href="registro.html">Create account</a></p> 
     </section>
@@ -49,5 +49,20 @@
 	
 </body>
 
-<script></script>
+<script>
+
+function Log() {
+	var x=document.getElementById('Username').value;
+	var y=document.getElementById('password').value;
+if(x=="admin" & y=="admin"){
+	location.href ='Admin/U_Admin.html';
+}else{
+if(x=="cliente" & y=="123"){
+	location.href ='clientes/U_Comun.html';
+}else{alert("clave o usuarios incorrecto")}
+}
+
+}
+
+</script>
 </html>
