@@ -20,11 +20,8 @@ function cargarUsuarios() {
                     Eliminar
                     </button>
                     </td>
-                
                 `;
-                tabla.appendChild(row);
-
-               
+                                tabla.appendChild(row);
             });
         }) // Aquí mostramos dicha información
         .catch(error => console.log('Hubo un error : ' + error.message))
