@@ -12,8 +12,8 @@ function cargarUsuarios() {
                     <td>${usuario.username}</td>
                     <td>${usuario.Pass}</td>
                     <td>${usuario.Rol}</td>
-                    <td" class="btn btn-info" >Editar</td>
-                    <td" class="btn btn-danger">Eliminar</td>
+                    <td"><a class="btn btn-info" >Editar</a></td>
+                    <td><a class="btn btn-info" >Eliminar</a></td>
                 `;
                 tabla.appendChild(row);
 
