@@ -21,31 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
 
-    <a class="navbar-brand" href="#"><img class="rounded col-3" src="../Fotos/Logo.png" /></a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="productos_j.php">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Users</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Sales.php">Sales</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="../../index.html">login out</a>
-        </li>
-
-      </ul>
-  </nav>
     
   <div class="container text-center">
     <div class="row align-items-start">
@@ -105,62 +81,7 @@
       </div>
     </div>
     
-    <div class="container mt-5">
-
-      <div class="row col-3">
-
-        <div class="col-md-8">
-          <table class="table">
-            <thead class="table-success table-striped">
-              <tr>
-
-                <th scope="col">ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">UserName</th>
-                <th scope="col">Password </th>
-                <th scope="col">Costo</th>
-                <th scope="col">Action</th>
-              </tr>
-            </thead>
-
-            <tr>
-              <?php
-               include'../cone.php';
-              $query="select * from usuarios";
-              $eje=mysqli_query($conn,$query) or die (mysqli_error($conn));
-             
-                              foreach($eje as $row):
-                                      ?>
-              <tr>
-                <th>
-                  <?php  echo $row['idu']?>
-                </th>
-                
-                <th>
-                  <?php  echo $row['name']?>
-                </th>
-                <th>
-                  <?php  echo $row['username']?>
-                </th>
-                <th>
-                  <?php  echo $row['pass']?>
-                </th> <th>
-                  <?php  echo $row['rol']?>
-                </th>
-               
-                <th><a href="alterU.php?id=<?php echo $row['idu'] ?>" class="btn btn-info" >Editar</a>
-                </th>
-                <th><a href="deleteU.php?id=<?php echo $row['idu'] ?>" class="btn btn-danger">Eliminar</a>
-                </th>
-              </tr>
-              <?php 
-                                          endforeach
-                                      ?>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
+ 
 
 
   </div>
