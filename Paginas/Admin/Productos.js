@@ -12,6 +12,14 @@ function cargarUsuarios() {
                     <td>${usuario.categoria}</td>
                     <td>${usuario.des}</td>
                     <td>${usuario.costo}</td>
+                    <td>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Editar
+                    </button>
+                    <button type="button" class="btn btn-danger">
+                    Eliminar
+                    </button>
+                    </td>
                 `;
                 tabla.appendChild(row);
             });

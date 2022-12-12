@@ -12,7 +12,7 @@ function cargarUsuarios() {
                     <td>${usuario.username}</td>
                     <td>${usuario.Pass}</td>
                     <td>${usuario.Rol}</td>
-                    <td">
+                    <td>
                     <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Editar
                     </button>
