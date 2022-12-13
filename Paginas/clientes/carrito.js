@@ -6,10 +6,10 @@ function cargarUsuarios() {
             usuarios.forEach(usuario => {
                 const row = document.createElement('tr');
                 row.innerHTML += `
-                    <td>${usuario.id}</td>
-                    <td>${usuario.product}</td>
-                    <td>${usuario.des}</td>
-                    <td>${usuario.costo}</td>
+                <td>${usuario.id}</td>
+                <td>${usuario.product}</td>
+                <td>${usuario.des}</td>
+                <td>${usuario.costo}</td>
                     <td>
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete">
                     Eliminar prodcutos
