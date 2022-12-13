@@ -16,10 +16,13 @@ function cargarUsuarios() {
                     <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Editar
                     </button>
+                    </td>
+                    <td>
                     <button type="button" class="btn btn-danger">
                     Eliminar
                     </button>
-                    </button>
+                    </td>
+                    <td>
                     <button type="button" class="btn btn-success">
                     Agregar
                     </button>
