@@ -18,7 +18,7 @@ function cargarUsuarios() {
                     </button>
                     </td>
                     <td>
-                    <button type="button" class="btn btn-danger">
+                    <button type="button" id="liveToastBtn" class="btn btn-danger">
                     Eliminar
                     </button>
                     </td>
