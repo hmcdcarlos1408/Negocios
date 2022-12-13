@@ -1,5 +1,4 @@
 const tabla = document.querySelector('#lista-usuarios td');
-
 function cargarUsuarios() {
     fetch('Admin/Json/productos.json')
         .then(respuesta => respuesta.json()) //Indicamos el formato en que se desea obtener la información
