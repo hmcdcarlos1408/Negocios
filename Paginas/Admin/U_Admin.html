@@ -37,48 +37,147 @@
 
           
 
-      <div class="col"><h4>Detalles de cuenta</h4>
+      <div class="col">
           <p><section class="Login">
                 <h4>Detalles de la cuenta</h4>
                 <p>
                 <h5>Nombre de la cuenta: Admin</h5>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#N">
+                  Editar
+                  </button>
                 </p>
                 <p>
               <h5>Usuario : Admin </h5>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#UN">
+                Editar
+                </button>
                 </p>
-                </p>
+                <p>
                 <h5>Correo registrado: admin@gmali.com</h5>
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#EM">
+                  Editar
+                  </button>
                 </p>
-
-
-
+                <p>
+                  <h5>Clave : <input type="password" value="admin" readonly></h5>
+                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Pas">
+                    Editar
+                    </button>
+                  </p>
           </div>
-          <div class="col">
-            <h5>Configuracion de cuenta</h5>
-          <p>
-            <section class="Login">
-              <h4>Configurar perfil</h4>
-              <p>
-              <h5>Nombre de la cuenta</h5><input class="button" type="submit" value="cambiar"> </p>
-              <p>
-              <h5>Usuario</h5><input class="button" type="submit" value="cambiar"></p>
-              </p>
-              <h5>Correo registrado</h5><input class="button" type="submit" value="cambiar"></p>
-              </p>
-              <h5>clave</h5><input class="button" type="submit" value="cambiar"></p>
-            </section>
-          </p>
-          </div>
-        
-        
-      
-    
-         
-          
-          
-      
     </div>
 
- 
+
+    <div class="modal fade" id="N" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="#" >
+            <div class="modal-body">
+              <div class="">
+                <h1>Cambiar nombre</h1>
+                <p>
+                  <input type="text" placeholder="Nombre de usuarios">
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-success">Modificar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="UN" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="#" >
+            <div class="modal-body">
+              <div class="">
+                <h1>Cambiar nombre de usuario</h1>
+                <p>
+                  <input type="text" placeholder="Nombre de usuarios">
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-success">Modificar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="modal fade" id="EM" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="#" >
+            <div class="modal-body">
+              <div class="">
+                <h1>Cambiar nombre de email</h1>
+                <p>
+                  <input type="email" placeholder="Ingresa el nuevo Email">
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-success">Modificar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="Pas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="#" >
+            <div class="modal-body">
+              <div class="">
+                <h1>Cambiar de clave</h1>
+                <p>
+                  <input type="password" placeholder="Nombre de usuarios">
+                </p>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+              <button type="submit" class="btn btn-success">Modificar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
 </body>
 </html>
