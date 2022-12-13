@@ -214,7 +214,7 @@ color: white;}
 .controls{
 	width: 80%;
 	border: 1px solid #1d6674;
-	margin-bottom: 15;
+	margin-bottom: 90;
 	padding: 11px 10px;
 	background: #c2e4eb;
 	font-size: 14px;
@@ -233,6 +233,12 @@ color: white;}
 .altura{height: 220px;}
 .Login p {
 	height: 10px;
+	text-align: center;
+}
+
+
+.Lp{
+	height: 40px;
 	text-align: center;
 }
 .h5o{
