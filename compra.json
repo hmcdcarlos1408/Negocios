@@ -19,7 +19,6 @@
     "cantidad articulos": 1,
     "precio total": 800
   },
-  
   {
     "id compra": 2,
     "id usuario": 2,
@@ -40,7 +39,6 @@
     "cantidad articulos": 1,
     "precio total": 2500
   },
-  
   {
     "id compra": 3,
     "id usuario": 3,
@@ -61,7 +59,6 @@
     "cantidad articulos": 5,
     "precio total": 2500
   },
-  
   {
     "id compra": 3,
     "id usuario": 3,
@@ -82,7 +79,6 @@
     "cantidad articulos": 2,
     "precio total": 800
   },
-  
   {
     "id compra": 4,
     "id usuario": 4,
@@ -103,7 +99,6 @@
     "cantidad articulos": 1,
     "precio total": 200
   },
-  
   {
     "id compra": 5,
     "id usuario": 5,
@@ -124,7 +119,6 @@
     "cantidad articulos": 1,
     "precio total": 2500
   },
-  
   {
     "id compra": 6,
     "id usuario": 6,
@@ -145,7 +139,6 @@
     "cantidad articulos": 1,
     "precio total": 400
   },
-  
   {
     "id compra": 7,
     "id usuario": 7,
@@ -166,7 +159,6 @@
     "cantidad articulos": 4,
     "precio total": 700
   },
-  
   {
     "id compra": 8,
     "id usuario": 8,
@@ -187,7 +179,6 @@
     "cantidad articulos": 2,
     "precio total": 2500
   },
-  
   {
     "id compra": 9,
     "id usuario": 9,
@@ -208,7 +199,6 @@
     "cantidad articulos": 1,
     "precio total": 500
   },
-  
   {
     "id compra": 10,
     "fecha de compra": "06/12/2022",
@@ -229,5 +219,9 @@
     "cantidad articulos": 2,
      "precio total": 2500
   }
-  
 ]
+
+
+
+
+
