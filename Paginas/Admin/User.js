@@ -18,12 +18,12 @@ function cargarUsuarios() {
                     </button>
                     </td>
                     <td>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#delet">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delet">
                     Eliminar
                     </button>
                     </td>
                     <td>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ALTA">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ALTA">
                     Agregar
                     </button>
                     </td>
