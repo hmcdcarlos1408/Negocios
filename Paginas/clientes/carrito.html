@@ -50,7 +50,8 @@
 			</li>
 		  </ul>
 	</nav>
-  <script src="carrito.js"></script>> 
+  
+  
   <div class="container">
     <div class="row mt-3">
         <div class="col">
@@ -63,7 +64,7 @@
                     <th scope="col">Descripcion corta</th>
                     <th scope="col">cantidad</th>
                     <th scope="col">Costo</th>
-                    <th></th>
+                
                     <th scope="col">Acciones</th>
                     <th></th>
                   </tr>
@@ -76,6 +77,9 @@
     </div>
 </div>
 <br/>
+
+
+
     <script src="ok.js"></script>
       <!-- Replace "test" with your own sandbox Business account app client ID -->
       <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
@@ -88,7 +92,7 @@
             return actions.order.create({
               purchase_units: [{
                 amount: {
-                  value: '77.44' // Can also reference a variable or function
+                  value: '3000' // Can also reference a variable or function
                 }
               }]
             });
@@ -108,7 +112,30 @@
           }
         }).render('#paypal-button-container');
       </script>
-      
+      <script src="carrito.js"></script>
+      <div class=" col col-lg-2">
+        <div class="modal fade" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <form action="#" >
+                <div class="modal-body">
+                  <h1>Eliminar producto</h1>
+                    <p>Desae eliminar este prodcuto</p>
+                 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">cancelar</button>
+                  <button type="submit" class="btn btn-danger">si</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
   </body>
 </html>
 
