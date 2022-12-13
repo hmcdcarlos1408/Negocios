@@ -19,6 +19,10 @@ function cargarUsuarios() {
                     <button type="button" class="btn btn-danger">
                     Eliminar
                     </button>
+                    </button>
+                    <button type="button" class="btn btn-success">
+                    Agregar
+                    </button>
                     </td>
                 `;
                 tabla.appendChild(row);
