@@ -12,12 +12,12 @@ function cargarUsuarios() {
                     <td>${usuario.Name_user}</td>
                     <td>${usuario.Desc}</td>
                     <td>
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#update">
                     Editar
                     </button>
                     </td>
                     <td>
-                    <button type="button" class="btn btn-danger">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete">
                     Eliminar
                     </button>
                     </td>

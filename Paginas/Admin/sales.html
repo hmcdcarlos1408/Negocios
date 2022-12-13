@@ -18,13 +18,12 @@
         <nav class="nav nav-pills flex-column">
           <Center>
           <img class="rounded col-3" src="Logo.png"/></Center>
-          <a class="nav-link" href="">Usuadio : Admin</a>
+          <a class="nav-link" href="#">Usuadio : Admin</a>
           <nav class="nav nav-pills flex-column">
             <a class="nav-link ms-3 my-1" href="U_Admin.html#Detalles_cuenta">Detalles de cuenta</a>
-            <a class="nav-link ms-3 my-1" href="U_Admin.html#Conf">Configurar cuenta</a>
             <a class="nav-link ms-3 my-1" href="Productos.html">Prodcutos </a>
             <a class="nav-link ms-3 my-1" href="Users.html">Usuarios</a>
-            <a class="nav-link ms-3 my-1" href="sales.html">Ventas</a>
+            <a class="nav-link ms-3 my-1" href="#">Ventas</a>
             <a class="nav-link ms-3 my-1" href="../../index.html">Salir</a>
           </nav>
         </nav>
@@ -41,10 +40,9 @@
               <thead>
                 <tr>
                   <th scope="col">ID</th>
-                  <th scope="col">Descripcion corta</th>
-                  <th scope="col">Material</th>
-                  <th scope="col">Descripcion larga</th>
-                 
+                  <th scope="col">Total</th>
+                  <th scope="col">Cleinte</th>
+                  <th scope="col">Descripcion</th>
                   <th scope="col">Acciones</th>
                 </tr>
               </thead>
@@ -54,7 +52,7 @@
           </div>
         </div>
         <div class=" col col-lg-2">
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          <div class="modal fade" id="update" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -65,11 +63,11 @@
                 <form action="#" >
                   <div class="modal-body">
                     <div class="">
-                      <h1>Ingrese datos</h1>
-                      <input type="text" class="form-control mb-3" name="Name" placeholder=" Name" required>
-                      <input type="text" class="form-control mb-3" name="Username" placeholder="Username" required>
-                      <input type="Email" class="form-control mb-3" name="Pass" placeholder="Email" required>
-                      <input type="text" class="form-control mb-3" name="Rol" placeholder="Rol" required>
+                      <h1>Actualizar</h1>
+                      <input type="text" value="$1500" class="form-control mb-3" name="Name" placeholder=" Name" required>
+                      <input type="text" value="Laurita" class="form-control mb-3" name="Username" placeholder="Username" required>
+                      <input type="text" value="Descripcion" class="form-control mb-3" name="Pass" placeholder="Email" required>
+            
                     </div>
                   </div>
                   <div class="modal-footer">
@@ -79,6 +77,35 @@
               </div>
             </div>
           </div>
+
+
+          <div class="modal fade" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <form action="#" >
+                <div class="modal-body">
+                  <div class="">
+                    <h1>Ingrese datos</h1>
+                    <p>Desea eliminar esta venta
+                    </p>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="submit" class="btn btn-danger">eliminar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+
         </div>
       </div>
     </div>
