@@ -67,10 +67,10 @@
                   <div class="modal-body">
                     <div class="">
                       <h1>Ingrese datos</h1>
-                      <input type="text" class="form-control mb-3" name="DescripcionC" placeholder=" Descripcion corta" required>
-                      <input type="text" class="form-control mb-3" name="Material" placeholder="Material" required>
-                      <input type="text" class="form-control mb-3" name="DescripcionL" placeholder="Descripcion larga" required>
-                      <input type="text" class="form-control mb-3" name="RoCostol" placeholder="Costo" required>
+                      <input type="text" class="form-control mb-3" name="DescripcionC" placeholder="Descripcion corta" required value="Chamarra deportiva">
+                      <input type="text" class="form-control mb-3" name="Material" placeholder="Material" required value="Poliéster">
+                      <input type="text" class="form-control mb-3" name="DescripcionL" placeholder="Descripcion larga" required value="Chamarra verde deportiva para hombre talla Mediana">
+                      <input type="text" class="form-control mb-3" name="RoCostol" placeholder="Costo" required value="$1500">
                     </div>
                   </div>
                   <div class="modal-footer">
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class=" col col-lg-2">
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="alta"
+          <div class="modal fade" id="alta" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -93,7 +93,7 @@
                 <form action="#" >
                   <div class="modal-body">
                     <div class="">
-                      <h1>Ingrese datos</h1>
+                      <h1>Alta de producto</h1>
                       <input type="text" class="form-control mb-3" name="DescripcionC" placeholder=" Descripcion corta" required>
                       <input type="text" class="form-control mb-3" name="Material" placeholder="Material" required>
                       <input type="text" class="form-control mb-3" name="DescripcionL" placeholder="Descripcion larga" required>
@@ -108,19 +108,40 @@
             </div>
           </div>
         </div>
-        <div class="toast-container position-fixed bottom-0 end-0 p-3">
-          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <img src="..." class="rounded me-2" alt="...">
-              <strong class="me-auto">System</strong>
-              <small>Hace 1 minuto</small>
-              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-              Se a eliminado el prodcuto
+
+
+
+
+
+        <div class=" col col-lg-2">
+          <div class="modal fade" id="delete" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel"></h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="#" >
+                  <div class="modal-body">
+                    <div class="modal-body">
+                      <p>Desae eliminar este prodcuto</p>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">cancelar</button>
+                    <button type="submit" class="btn btn-danger">si</button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
+        
+      
+
+
+
+
       </div>
     </div>
   </div> </div>
