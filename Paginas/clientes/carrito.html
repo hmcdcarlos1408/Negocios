@@ -32,23 +32,28 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			<li class="nav-item">
-			  <a class="nav-link active" aria-current="page" href="Prodcutos.html">Store</a>
+			  <a class="nav-link active" aria-current="page" href="Prodcutos.html">cuenta</a>
 			</li>
+      <li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="Prodcutos.html">Tienda</a>
+			</li>
+    
 			<li class="nav-item">
 			  <a class="nav-link active" aria-current="page" href="#">
-       shopping cart</a>
+       carrito</a>
 			</li>
 			<li class="nav-item">
 			  <a class="nav-link " href="../../index.html">Login out</a>
 			</li>
 		  </ul>
 	</nav>
+  <script src="carrito.js"></script>> 
   <div class="container">
     <div class="row mt-3">
         <div class="col">
             <h2 style="text-align: center;">Productos del carrito</h2>
             <div class="my-3">
-              <table class="table table-sm">
+              <table class="table table-sm" id="lista-usuarios">
                 <thead class="table-success table-striped">
                   <tr>
                     <th scope="col">ID-produco</th>
@@ -57,11 +62,14 @@
                     <th scope="col">Descripcion del producto</th>
                   </tr>
                 </thead>
+                <tbody id="tab">
+                </tbody>
               </table>
             </div>
         </div>
     </div>
 </div>
+
 <br/>
     <script src="ok.js"></script>
       <!-- Replace "test" with your own sandbox Business account app client ID -->
@@ -95,6 +103,7 @@
           }
         }).render('#paypal-button-container');
       </script>
+      
   </body>
 </html>
 

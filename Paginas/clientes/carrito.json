@@ -1,0 +1,24 @@
+[
+    {
+        "id": 2000,
+        "product": "Short Wilson",
+        "des": "Short negro unisex talla grande",
+        "costo":600,
+        "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5YdXhOzo_RDt9NTKjT9ZZRQujAQZOI8BjA&usqp=CAU"
+      },
+      {
+        "id": 1090,
+        "product": "Camisa rosa con cuadros blancos",
+        "des": "Elaborado en tejido de plano para hombre talla Grande",
+        "costo":500,
+        "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIIfVqKyW1dqD9uvsUZs1qo_n8jRseErMkZQ&usqp=CAU"
+      },
+       {
+    "id": 2010,
+    "product": "Sudadera café",
+    "des": "Corte regular unisex unitalla",
+    "costo":500,
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMB0GOy8cwCw5TCARhoQt4iRmT9tJxRfr6w&usqp=CAU"
+  }
+
+]
