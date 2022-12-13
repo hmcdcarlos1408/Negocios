@@ -16,9 +16,9 @@ function cargarUsuarios() {
                     </button>
                     </td>
                     <td>
-                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete">
+                    <a href="carrito.html"><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete">
                     Eliminar
-                    </button>
+                    </button></a>
                     </td>
                 `;
                 tabla.appendChild(row);
