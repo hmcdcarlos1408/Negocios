@@ -23,7 +23,7 @@ function cargarUsuarios() {
                     </button>
                     </td>
                     <td>
-                    <button type="button" class="btn btn-success">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#alta">
                     Agregar
                     </button>
                     </td>
