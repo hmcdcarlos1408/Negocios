@@ -16,7 +16,7 @@ function cargarUsuarios() {
                     Eliminar prodcutos
                     </button>
                     </td>
-                
+                    
                 `;
                 tabla.appendChild(row);
             });
