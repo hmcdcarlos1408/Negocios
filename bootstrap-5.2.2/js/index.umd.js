@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
-
 import Alert from './src/alert'
 import Button from './src/button'
 import Carousel from './src/carousel'
@@ -17,7 +16,6 @@ import ScrollSpy from './src/scrollspy'
 import Tab from './src/tab'
 import Toast from './src/toast'
 import Tooltip from './src/tooltip'
-
 export default {
   Alert,
   Button,
@@ -32,3 +30,5 @@ export default {
   Toast,
   Tooltip
 }
+
+
