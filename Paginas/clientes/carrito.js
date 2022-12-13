@@ -17,6 +17,8 @@ function cargarUsuarios() {
                     </button>
                     </td>
                     
+   
+                    
                 `;
                 tabla.appendChild(row);
             });

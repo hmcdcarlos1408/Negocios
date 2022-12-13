@@ -1,21 +1,20 @@
 [
-    {
-        "id": 2000,
-        "product": "Short Wilson",
-        "des": "Short negro unisex talla grande",
-        "costo":600
-     },
-      {
-        "id": 1090,
-        "product": "Camisa rosa con cuadros blancos",
-        "des": "Elaborado en tejido de plano para hombre talla Grande",
-        "costo":500
-      },
-       {
-    "id": 2010,
-    "product": "Sudadera café",
-    "des": "Corte regular unisex unitalla",
-    "costo":500
+   {
+     "id": 1000,
+     "product": "Chamarra deportiva",
+     "des": "Chamarra verde deportiva  para hombre talla Mediana ",
+     "costo":1500
+   },
+   {
+     "id": 1010,
+     "product": "Chamarra azul",
+    "des": "Chamarra de pana color azul para hombre talla Xg ",
+     "costo":800
+   },
+   {
+     "id": 1020,
+     "product": "Puma Transition",
+     "des": "Legging gris deportivo para mujer talla Mediana ",
+     "costo":700
    }
-
-]
+] 
