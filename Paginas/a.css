@@ -314,3 +314,29 @@ color: white;}
     margin-right: auto;
 }
 
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(235, 233, 231);
+    box-shadow: 0 15px 45px rgb(0, 0, 0.25);
+    overflow: hidden;
+}
+
+.contenedor img{
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.contenedor button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
