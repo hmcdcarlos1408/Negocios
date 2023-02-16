@@ -1,0 +1,20 @@
+[
+  {
+     "id": 1000,
+     "product": "Chamarra deportiva",
+     "des": "Chamarra verde deportiva  para hombre talla Mediana ",
+     "costo":1500
+  },
+   {
+     "id": 1010,
+     "product": "Chamarra azul",
+    "des": "Chamarra de pana color azul para hombre talla Xg ",
+     "costo":800
+   },
+   {
+     "id": 1020,
+     "product": "Puma Transition",
+     "des": "Legging gris deportivo para mujer talla Mediana ",
+     "costo":700
+   }
+] 

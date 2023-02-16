@@ -2,7 +2,8 @@ body{
 	font-family: sans-serif;
 	margin: 0;
 }
-.balckfooter{ 
+.balckfooter{    
+	
 	background-color:hwb(203 18% 50%);
 	display: flex;
 	justify-content: center;
@@ -18,13 +19,16 @@ a{
 	text-decoration: none;
 	color: black;
 }
+
 input{
 	padding: 11px 10px;
 	border-radius: 10px;
 }
+
 nav a{
 	padding-right: 10px;
 }
+
 header{
 	background-color: #80D8E9;
 	display: flex;
@@ -32,11 +36,14 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	
 }
+
 .mujeres{
 	background-color:darksalmon;
 	color:dimgray ;
 }
+
 .ok{background-color: hwb(203 18% 50%);}
 Footer{
 	background-color: #80D8E9;
@@ -44,6 +51,7 @@ Footer{
 	
 	padding: 20px;
 }
+
 .promo{ background: linear-gradient(90deg, rgb(20%, 40%, 60%), rgb(60%, 20%, 40%));
 color: white;}
 .pago{ background: linear-gradient(90deg, #021c2e, #7b8603);}
@@ -51,26 +59,32 @@ color: white;}
 	display: flex;
 	align-items: center;
 }
+
 .cabezal img{
 	height: 90px;
 	margin-right: 20px;
 }
+
 .MenB{
 	margin-left: 30px;
 }
+
 .TextP{
 	justify-content: space-between;
 	text-align:center;
 }
+
 .MenAuto{
 	text-align:center;
 }
+
 .Ima{
 	padding: 10px;
 	width: 250px;
 	height: 250px;
 	margin-right: 20px;
 }
+
 .banner{
 	width: 700px;
 	height: 320px;
@@ -80,37 +94,51 @@ color: white;}
 	background-size: 100% 100%;
 	
 	animation: banner 10s infinite;
+		
 }
+
 @keyframes banner {
+	
 	0%, 30% {
 		background-image: url(mujeres.jpg);
 		opacity: 1;
 	}
+	
 	31%, 34%{
 		opacity: 0.1;
 	}
+	
 	35%, 65% {
 		background-image: url(Hombres.jpg);
 		opacity: 1;
 	}
+	
 	66%, 69%{
 		opacity: 0.1;
 	}
+	
 	70%, 100% {
 		background-image: url(ninos.jpg);
 		opacity: 1;
 	}
+	
 }
+
+
+
 .OpcionesU{
 	width: 400px;
 	height: 340;
 	background-color: #1b292c;
 }
+
 .OpcionesU h2{
 	text-align: center;
 	color: aliceblue;
 	font-size: 50px;
 }
+
+
 .OpcionesU h4{
 	text-align: center;
 	color: aliceblue;
@@ -120,6 +148,8 @@ color: white;}
 	font-size: 35px;
 	margin-bottom: 20px;
 }
+
+
 .OpcionesU h5{
 	text-align: left;
 	color: aliceblue;
@@ -127,6 +157,7 @@ color: white;}
 	border-color: #f8feff;
 	font-size: 25px;
 }
+
 .Login {
 	width: 400px;
 	height: 340;
@@ -138,6 +169,7 @@ color: white;}
 	padding: 20px 30px;
 	color: #000;
 }
+
 .Login input {
 	color: antiquewhite;
 	margin: 0;
@@ -147,6 +179,7 @@ color: white;}
 	font-size: 20px;
 	color: #000;
 }
+
 .Login h4 {
 	color: antiquewhite;
 	margin: 0;
@@ -157,6 +190,7 @@ color: white;}
 	border-color: #f8feff;
 	font-size: 20px;
 }
+
 .Login h5 {
 	color: antiquewhite;
 	margin: 0;
@@ -167,6 +201,7 @@ color: white;}
 	border-color: #f8feff;
 	font-size: 20px;
 }
+
 .Login h2 {
 	color: antiquewhite;
 	margin: 0;
@@ -175,6 +210,7 @@ color: white;}
 	margin-bottom: 5px;
 	font-size: 50px;
 }
+
 .controls{
 	width: 80%;
 	border: 1px solid #1d6674;
@@ -184,6 +220,7 @@ color: white;}
 	font-size: 14px;
 	font-weight: bold;
 }
+
 .button{
 	width: 100%;
 	height: 40%;
@@ -198,6 +235,8 @@ color: white;}
 	height: 10px;
 	text-align: center;
 }
+
+
 .Lp{
 	height: 40px;
 	text-align: center;
@@ -206,6 +245,8 @@ color: white;}
 	text-align: center;
 	color: #f8feff;
 }
+
+
 .Productos{
 	width: 400px;
 	height: 340;
@@ -216,6 +257,7 @@ color: white;}
 	margin-bottom: 100px;
 	padding: 20px 30px;
 }
+
 .Productos h4{
 	margin: 0;
 	text-align: center;
@@ -225,6 +267,7 @@ color: white;}
 	border-bottom: 1px solid;
 	font-size: 20px;
 }
+
 .Filtrado{
 	width: 300px;
 	height: 340;
@@ -237,6 +280,8 @@ color: white;}
 	padding: 20px 30px;
 	float: left;
 }
+
+
 .User{
 	align-content: center;
 	margin-left: auto;
@@ -256,16 +301,19 @@ color: white;}
     box-shadow: 0 15px 45px rgb(0, 0, 0.25);
     overflow: hidden;
 }
+
 .contenedor img{
     margin-left: 20px;
     margin-right: auto;
     margin-top: 10px;
 }
+
 .contenedor button{
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
+
 .contenedor{
     display: flex;
     justify-content: center;
@@ -279,21 +327,16 @@ color: white;}
     box-shadow: 0 15px 45px rgb(0, 0, 0.25);
     overflow: hidden;
 }
+
 .contenedor img{
     margin-left: 20px;
     margin-right: auto;
     margin-top: 10px;
 }
+
 .contenedor button{
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
-
-
 

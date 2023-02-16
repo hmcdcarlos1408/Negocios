@@ -2,46 +2,62 @@
 <html lang="en">
 <head>
     <meta charset "UTF-8"> 
-	<title>PlexoCloe</title>
+	<title>PlexoClo</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="Paginas/a.css">  
 	<link rel="stylesheet" href="a.css">    
 </head>
 <body>
-    <header>
-	<div class="cabezal">
-		<img src="Logo.png" alt="Logo de la empresa">
-		<h2 class="PlexoClo">PlexoClo</h2>
-	</div>
-	<nav>
-		<a href="../index.html" class="nav-link">Inicio</a>
-		<a href="../Lista de productos.html" class="nav-link">Explora nuestros productos</a>
-		<a href="../Pagina_login.html" class="nav-link">Iniciar sesion</a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+		<a class="navbar-brand" href="../index.html"><img class="rounded col-3" src="Fotos/Logo.png"/></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="Productos.html">Store</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="Reviews.html">Reviews</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="registro.html">Create account</a>
+			  </li>
+			<li class="nav-item">
+			  <a class="nav-link " href="#">Login</a>
+			</li>
+		  </ul>
 	</nav>
-	
-		<input type="text" placeholder="buscar" required>
-	</header>
-
-    <section class="Login">
+    <section class="Login"><center>
         <h4>Ingresa con tu cuenta</h4> 
-        <p><input class="controls" type="text" name="" placeholder="Usuario"></p>
-        <p><input class="controls" type="password" placeholder="Contrasena"></p>
-        <input class="button" type="submit" value="Ingresar"> 
-        <p><a href="registro.html">Crea una cuenta</a></p> 
+        <p class="lp">
+			<input class="controls" type="text" id="Username" placeholder="Username" ></p>
+        <p class="lp"><br>
+			<input class="controls" type="password" id="password" placeholder="password"></p>
+			<br><br><br>
+		<button type="button" class="btn btn-primary btn-lg"  onclick="Log()">Ingresar</button>
+		<a href="registro.html"><button type="button" class="btn btn-secondary btn-lg" disabled>Create account</button>
+	</a>
+</center>
     </section>
-
-
-	<footer>
-		<div class="Pie"> </div>
-		<nav>
-		<h2 class="Foot-link">Conoce nuestras redes sociales:</h2>
-		<a href="" class="Foot-link">Facebook</a>
-		<br>
-		<a href="" class="Foot-link">Youtube</a>
-		<br>
-		<a href="" class="Foot-link">Twitter</a>
-		<h4> Plexo_Clo@gmail.com</h4>
-		<a href="" class="Foot-link">Terminos y condiciones</a>
-			
-	</nav>
-	</footer>
 </body>
+<script>
+function Log() {
+	var x=document.getElementById('Username').value;
+	var y=document.getElementById('password').value;
+if(x=="admin" & y=="admin"){
+	location.href ='Admin/U_Admin.html';
+}else{
+if(x=="cliente" & y=="123"){
+	location.href ='clientes/U_Comun.html';
+}else{alert("clave o usuarios incorrecto")}
+}
+}
+</script>
 </html>
